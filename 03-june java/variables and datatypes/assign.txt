@@ -1,0 +1,17 @@
+class ottPlatfrom{
+
+top10Movies
+english movies 25
+englishmovies[0]..........englishmovies[25]
+kannadaMovies 25
+hindimoviesOrseries 25
+koreanSeries 20
+
+
+
+classSportsMania
+
+iplTeamNames
+top10batsmen
+top10bowlers
+top10iccteams[]={"","",""}

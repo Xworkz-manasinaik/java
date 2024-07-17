@@ -1,0 +1,7 @@
+class PhilipsLights{
+ public static void main(String light[]){
+ System.out.println("it is portable")
+ System.out.println("very useful in scarcity of electricity")
+ System.out.println("")
+ }
+}
