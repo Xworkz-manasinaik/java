@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>Bootstrap Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .buttons{
+position: absolute;
+right: 190px;
+position: absolute;
+top: 20px;
+        }
+#name{
+    position: absolute;
+    top: -490px;
+    position: absolute;
+    right: 500px;
+}     
+.mani1{
+   position: absolute;
+   right: 20px;
+   position: absolute;
+   top: 25px;
+}
+#mani2{
+    position: absolute;
+    top: 380px;
+    position: absolute;
+    right:30px;
+    
+}
+#mani2:hover{
+    color: aqua;
+    background-color: rgba(112, 68, 166, 0.466)
+}
+    </style>
+  </head>
+  
+  
+  <body class="p-3 m-0 border-0 bd-example m-0 border-0 bg-body-secondary">
+    <input type="search" placeholder="search here">
+    <button type="button" class="btn-close" aria-label="Close"></button>
+    
+    
+   <a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/"> <button type="button"  class="btn btn-primary">docs</button></a>
+    <a class="btn btn-primary" href="https://getbootstrap.com/docs/5.3/examples/" role="button">example</a>
+   <a href="https://icons.getbootstrap.com/"> <button type="button" class="btn btn-outline-primary">icon</button></a>
+    <button type="button" class="btn btn-primary">
+        Notifications <span class="badge text-bg-secondary">4</span>
+      </button>
+
+      <div class="buttons">
+        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+            <div class="btn-group me-2" role="group" aria-label="First group">
+              <button type="button" class="btn btn-primary">1</button>
+              <button type="button" class="btn btn-primary">2</button>
+              <button type="button" class="btn btn-primary">3</button>
+              <button type="button" class="btn btn-primary">4</button>
+            </div>
+            <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                <button type="button" class="btn btn-primary">5.3</button>
+                <button type="button" class="btn btn-primary">help</button>
+              
+                <div class="btn-group" role="group">
+                  <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">profile</a></li>
+                    <li><a class="dropdown-item" href="#">about us</a></li>
+                  </ul>
+                </div>
+              </div>
+              </div>
+              </div>
+
+              <button class="mani1" type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" data-bs-title="this is easy to learn" data-bs-content="And here's some amazing content. It's very engaging. Right?">bootstrap</button>
+
+      <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">help</a></li>
+          <li class="breadcrumb-item active" aria-current="page">setting</li>
+        </ol>
+      </nav>
+    </div>
+
+      <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              1. Responsive Grid System
+
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the first item's accordion body.</strong> Bootstrap's grid system allows developers to create responsive layouts easily. It uses a 12-column grid layout that adjusts based on the screen size, ensuring that your website looks good on various devices and screen sizes, from mobile phones to desktops.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                2. Pre-styled Components
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> Bootstrap provides a wide range of pre-styled components such as buttons, forms, navigation bars, cards, modals, and more. These components are ready to use and can be customized using Bootstrap's extensive set of utility classes and SASS variables.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                3. Customizable and Extensible
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> Bootstrap can be customized using its SASS variables or by overriding default styles. This allows developers to create unique designs while maintaining the benefits of a responsive framework.
+            </div>
+          </div>
+        </div>
+      </div>
+
+       
+
+          <section>
+          <div class="card" style="width: 18rem;">
+            <img src="https://loudcanvas.com/wp-content/uploads/2019/06/bootstrap-wallpaper.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bootstrap</h5>
+              <p class="card-text">Advantages of Bootstrap: Easy to use: Anybody with just basic knowledge of HTML and CSS can start using Bootstrap. Responsive features: Bootstrap's responsive CSS adjusts to phones, tablets, and desktops. Mobile-first approach: In Bootstrap 3, mobile-first styles are part of the core framework.</p>
+              <a href="https://getbootstrap.com/docs/5.3/components/card/" class="btn btn-primary">Go sbootstrap website</a>
+            </div>
+          </div>
+        </section>
+
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://loudcanvas.com/wp-content/uploads/2019/06/bootstrap-wallpaper.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://www.investopedia.com/thmb/KDCJqT2NmNHQluBXLFP-bdHp5gg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/bootstrapping.asp-FINAL-568f1e65d4a34316abb9f8741b96d179.png" class="d-block w-100" alt="">
+              </div>
+              <div class="carousel-item">
+                <img src="https://cdn.prod.website-files.com/5eff9c5e4dba181f8aa2d1e0/60db2e09e58fd3b1026029db_uLpQvRIiMavWKvu2qiLXdhipgW6rmkmKFgr0beEvnkVAC1fPFmtdLQYDEbeqksUUEl1dxiMZIWK0t7jX_yMj3Xa_GxNMp7PdJmLN5tyLvx-B1e2Gu3DynJgmo_gSHBoy0yWHDT9b.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            
+            <div id="name">
+            <p>
+                <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseWidthExample" aria-expanded="false" aria-controls="collapseWidthExample">
+                 bootstrap
+                </button>
+              </p>
+              <div style="min-height: 120px;">
+                <div class="collapse collapse-horizontal" id="collapseWidthExample">
+                  <div class="card card-body" style="width: 300px;">
+                    Bootstrap is an open-source front-end framework developed by Twitter. It is a collection of tools and components designed to simplify and accelerate web development. Here are key aspects and features of Bootstrap:
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+          
+    
+          <ul class="list-group">
+            <li class="list-group-item active" aria-current="true">bootstrap applications are:</li>
+            <li class="list-group-item">Create your HTML structure</li>
+            <li class="list-group-item">Bootstrap provides various components that you can easily integrate into your application. </li>
+            <li class="list-group-item">Enhance the navbar with dropdown menus</li>
+            <li class="list-group-item">Implement a carousel with images</li>
+          </ul>
+
+          <h4 id="mani2">new version available now <span class="badge text-bg-secondary">New</span></h4>
+
+          <div class="modal" tabindex="-1">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title">write feedback here</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <p>you can text here</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="offcanvas offcanvas-start show text-bg-dark" tabindex="-1" id="offcanvasDark" aria-labelledby="offcanvasDarkLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkLabel">bootstrap</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvasDark" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <p>welcome to bootstrap website</p>
+            </div>
+          </div>
+<br>
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Active</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">clich here</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">contact us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <nav aria-label="Page navigation example">
+            <ul class="pagination">
+              <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+          </nav>
+<br>
+          <div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar" style="width: 0%"></div>
+</div>
+<div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar" style="width: 25%"></div>
+</div>
+<div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar" style="width: 50%"></div>
+</div>
+<div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar" style="width: 75%"></div>
+</div>
+<div class="progress" role="progressbar" aria-label="Basic example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+  <div class="progress-bar" style="width: 100%"></div>
+</div>
+
+<div class="spinner-border text-primary" role="status">
+    <span class="visually-hidden">Loading...</span>
+  </div>
+  <div class="spinner-border text-secondary" role="status">
+    <span class="visually-hidden">Loading...</span>
+  </div>
+  <div class="spinner-border text-success" role="status">
+    <span class="visually-hidden">Loading...</span>
+  </div>
+  <div class="spinner-border text-danger" role="status">
+    <span class="visually-hidden">Loading...</span>
+  </div>
+  <div class="spinner-border text-warning" role="status">
+    <span class="visually-hidden">Loading...</span>
+  </div>
+  <div class="spinner-border text-info" role="status">
+    <span class="visually-hidden">Loading...</span>
+  </div>
+  <div class="spinner-border text-light" role="status">
+    <span class="visually-hidden">Loading...</span>
+  </div>
+  <div class="spinner-border text-dark" role="status">
+    <span class="visually-hidden">Loading...</span>
+
+  </div>
+  <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header">
+      <img src="..." class="rounded me-2" alt="...">
+      <strong class="me-auto">Bootstrap</strong>
+      <small class="text-body-secondary">11 mins ago</small>
+      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+    </div>
+    <div class="toast-body">
+      Hello, world! This is a toast message.
+    </div>
+  </div>
+
+  <div id="liveAlertPlaceholder"></div>
+<button type="button" class="btn btn-primary" id="liveAlertBtn">Show live alert</button>
+<div class="alert alert-primary" role="alert">
+    check your internet connection!
+  </div>
+
+  </div>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">bootstrap</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  </body>
+</html>
